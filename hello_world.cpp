@@ -1,16 +1,16 @@
 #include <iostream>
 #include <string>
 
-// Главная функция - точка входа в программу
+// Main function - program entry point
 int main() {
-    std::string name;  // Переменная для хранения имени пользователя
+    std::string name;  // Variable for storing username
     
-    // Запрашиваем ввод от пользователя
+    // Request user input
     std::cout << "Enter your name: ";
-    std::cin >> name;  // Читаем ввод пользователя
+    std::cin >> name;  // Read user input
     
-    // Выводим приветственное сообщение
+    // Output greeting message
     std::cout << "Hello world from " << name << std::endl;
     
-    return 0;  // Программа завершена успешно
+    return 0;  // Program completed successfully
 }
